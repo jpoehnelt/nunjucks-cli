@@ -6,7 +6,7 @@ const nunjucks = require('nunjucks')
 const chokidar = require('chokidar')
 const glob = require('glob')
 const mkdirp = require('mkdirp')
-const chalk = require('chalk').default
+const chalk = require('chalk')
 const log = require('npmlog')
 
 const { argv } = require('yargs')
